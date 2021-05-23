@@ -25,7 +25,7 @@ return s_api(url)
 end
 if text == "@all" and CoSu(msg) then
 if not database:get(bot_id..'Cick:all'..msg.chat_id_) then
-if database:get(bot_id.."VVVZVV:all:Time"..msg.chat_id_..':'..msg.sender_user_id_) then  
+if database:get(bot_id.."uuuuu1:all:Time"..msg.chat_id_..':'..msg.sender_user_id_) then  
 return 
 send(msg.chat_id_, msg.id_,"*انتظر دقيقه من فضلك*")
 end
@@ -77,5 +77,5 @@ end
 
 end
 return {
-KetoTeam = all
+Peland = all
 }
